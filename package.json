@@ -1,0 +1,16 @@
+{
+  "name": "material-design-icons-for-gutenberg-cgb-guten-block",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cgb-scripts start",
+    "build": "cgb-scripts build",
+    "eject": "cgb-scripts eject"
+  },
+  "dependencies": {
+    "@mdi/js": "^3.6.95",
+    "@mdi/react": "^1.1.0",
+    "cgb-scripts": "1.17.0",
+    "react-debounce-input": "^3.2.0"
+  }
+}
