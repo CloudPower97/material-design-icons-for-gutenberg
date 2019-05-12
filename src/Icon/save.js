@@ -21,12 +21,15 @@ export default ( {
 	>
 		<Icon
 			path={ path }
-			size={ +size }
+			size={ size }
 			color={ color }
 			horizontal={ horizontal }
 			vertical={ vertical }
 			spin={ spin }
 			rotate={ rotate }
+			role="img"
+			aria-hidden
+			focusable={ false }
 		/>
 	</div>
 );

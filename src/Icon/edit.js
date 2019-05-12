@@ -98,7 +98,7 @@ export default class extends Component {
 								help={ __( '{size * 1.5}rem, 1em, 48px' ) }
 								onChange={ size => {
 									setAttributes( {
-										size,
+										size: +size,
 									} );
 								} }
 							/>
@@ -149,7 +149,7 @@ export default class extends Component {
 								help={ __( 'Rotate the icon in degrees, from 0 to 360' ) }
 								onChange={ rotate => {
 									setAttributes( {
-										rotate,
+										rotate: +rotate,
 									} );
 								} }
 							/>
@@ -172,7 +172,7 @@ export default class extends Component {
 					<Button onClick={ this.toggleModal }>
 						<Icon
 							path={ path }
-							size={ +size }
+							size={ size }
 							color={ color }
 							horizontal={ horizontal }
 							vertical={ vertical }
